@@ -6,11 +6,11 @@ Author: Tran Ngoc
 """
 
 # --- 1. Variable Declaration & Data Types ---
-name = "Ngoc"               # str: represents a string of text
-age = 18                    # int: represents an integer
-height = 1.75                # float: represents a floating-point number
-is_graduated = False        # bool: represents a boolean (True or False)
-note = None                 # NoneType: represents the absence of a value
+name = "Ngoc"  # str: represents a string of text
+age = 18  # int: represents an integer
+height = 1.75  # float: represents a floating-point number
+is_graduated = False  # bool: represents a boolean (True or False)
+note = None  # NoneType: represents the absence of a value
 
 # Check data types using type()
 print(f"Type of 'name': {type(name)}")
@@ -21,13 +21,15 @@ print(f"Type of 'note': {type(note)}")
 
 
 # --- 2. Basic Arithmetic Operations ---
-total = age + 5             # Addition: 23
-division = age / 3          # Division (always returns float): 6.0
-floor_division = age // 3   # Integer division (floor): 6
-remainder = age % 3         # Modulus (remainder): 0
+total = age + 5  # Addition: 23
+division = age / 3  # Division (always returns float): 6.0
+floor_division = age // 3  # Integer division (floor): 6
+remainder = age % 3  # Modulus (remainder): 0
 
-print(f"Total: {total}, Division: {division}, "
-      f"Floor division: {floor_division}, Remainder: {remainder}")
+print(
+    f"Total: {total}, Division: {division}, "
+    f"Floor division: {floor_division}, Remainder: {remainder}"
+)
 
 
 # --- 3. Input and Type Casting ---
@@ -42,11 +44,11 @@ print(f"Next year you will be {age_int + 1} years old.")
 
 # --- 4. Advanced print() usage ---
 # 'sep' defines the character placed between items
-print("Python", "FAE", "2026", sep=" - ")   # Output: Python - FAE - 2026
+print("Python", "FAE", "2026", sep=" - ")  # Output: Python - FAE - 2026
 
 # 'end' replaces the default newline at the end of print()
 print("Processing", end="...")
-print("Done!")                               # Output: Processing...Done!
+print("Done!")  # Output: Processing...Done!
 
 
 # --- 5. Final Formatting (f-string) ---
